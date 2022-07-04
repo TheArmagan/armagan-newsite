@@ -47,7 +47,7 @@
 					<div class="bottom">
 						<div class="links">
 							{#each p.links as link}
-								<a href={link[1]} class="link">{link[0]}</a>
+								<a href={link[1]} class="link" target="_blank">{link[0]}</a>
 							{/each}
 						</div>
 					</div>
