@@ -27,6 +27,13 @@
 			links: [['Source', 'https://github.com/TheArmagan/smallphone'],['Visit!', 'https://thearmagan.github.io/smallphone/']],
 			preview:
 				'https://media.discordapp.net/attachments/956946033299038258/993457961722720346/unknown.png'
+		},
+		{
+			title: 'EasyDL',
+			description: 'Basically download anything..',
+			links: [['Visit!', 'https://armagan-easydl.herokuapp.com/']],
+			preview:
+				'https://media.discordapp.net/attachments/956946033299038258/993764794119241808/unknown.png'
 		}
 	];
 </script>
