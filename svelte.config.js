@@ -13,11 +13,6 @@ const config = {
 		browser: {
 			hydrate: true,
 			router: true
-		},
-		vite: {
-			ssr: {
-				external: ['@xstate/svelte']
-			}
 		}
 	}
 };
