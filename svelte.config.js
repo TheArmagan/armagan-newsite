@@ -9,11 +9,7 @@ const config = {
 		sourcemap: false
 	},
 	kit: {
-		adapter: adapter({ out: "build" }),
-		browser: {
-			hydrate: true,
-			router: true
-		}
+		adapter: adapter({ out: "build" })
 	}
 };
 
