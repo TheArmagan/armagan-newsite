@@ -70,6 +70,16 @@
 						'https://media.discordapp.net/attachments/956946033299038258/1021134460223246428/unknown.png',
           previewSize: "contain"
 				},
+        {
+					title: 'Hide Channels',
+					description: 'Easily hide channels or guilds.',
+					links: [
+						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/hide-channels/dist/']
+					],
+					preview:
+						'https://media.discordapp.net/attachments/956946033299038258/1021137576289124452/unknown.png',
+          previewSize: "contain"
+				},
 			]
 		},
 	];
