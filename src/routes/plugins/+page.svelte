@@ -1,4 +1,7 @@
 <script>
+	import { installPlugin } from "$lib/cumcordConnection";
+
+
 	let cats = [
 		{
 			name: 'Cumcord Plugins',
@@ -6,7 +9,7 @@
 				{
 					title: 'Voice Indicators',
 					description: 'Easily see users in voice channels on servers and DM calls. (Yes, includes DM calls too.)',
-					links: [['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-indicators/dist/']],
+					links: [['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-indicators/dist/"); }]],
           preview: 'https://media.discordapp.net/attachments/956946033299038258/1021116468487782562/unknown.png',
           previewSize: "contain"
 				},
@@ -14,7 +17,7 @@
 					title: 'Client Statuses',
 					description: 'See from which platform users are connecting to Discord.',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/client-statuses/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/client-statuses/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021117872661090314/unknown.png',
@@ -24,7 +27,7 @@
 					title: 'Top Voices',
 					description: 'See most active guilds on your Discord.',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/top-voices/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/top-voices/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021120402182909982/unknown.png',
@@ -34,7 +37,7 @@
 					title: 'Also Known As',
 					description: 'See all nicknames of a user. Using /aka command. (Includes guilds you are not in.)',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/also-known-as/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/also-known-as/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021120990564061236/unknown.png',
@@ -44,7 +47,7 @@
 					title: 'Imagine Being Discord Mod',
 					description: 'Get moderators perms on any guild. (Client-Sided)',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/imagine-being-discord-mod/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/imagine-being-discord-mod/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021132585780400198/unknown.png',
@@ -54,7 +57,7 @@
 					title: 'Note Indicators',
 					description: 'Easily see notes of users.',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/note-indicators/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/note-indicators/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021133812710789231/unknown.png',
@@ -64,7 +67,7 @@
 					title: 'Voice State Logs',
 					description: 'See every voice activity in your discord guilds.',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-state-logs/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-state-logs/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021134460223246428/unknown.png',
@@ -74,7 +77,7 @@
 					title: 'Hide Channels',
 					description: 'Easily hide channels or guilds.',
 					links: [
-						['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/hide-channels/dist/']
+						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/hide-channels/dist"); }]
 					],
 					preview:
 						'https://media.discordapp.net/attachments/956946033299038258/1021137576289124452/unknown.png',
@@ -105,7 +108,7 @@
 							<div class="bottom">
 								<div class="links">
 									{#each item.links as link}
-										<a href={link[1]} class="link" target="_blank">{link[0]}</a>
+										<a href={typeof link[1] == "string" ? link[1] : "#"} class="link" target="{typeof link[1] == "string" ? "_blank" : ""}" on:click="{typeof link[1] == "function" ? link[1] : ()=>{}}">{link[0]}</a>
 									{/each}
 								</div>
 							</div>
