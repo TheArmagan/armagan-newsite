@@ -75,7 +75,7 @@
 				},
         {
 					title: 'Hide Channels',
-					description: 'Easily hide channels or guilds.',
+					description: 'Easily hide channels or categories.',
 					links: [
 						['Install', ()=>{ installPlugin("https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/hide-channels/dist"); }]
 					],
