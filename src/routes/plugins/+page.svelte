@@ -6,7 +6,7 @@
 				{
 					title: 'Voice Indicators',
 					description: 'Easily see users in voice channels on servers and DM calls. (Yes, includes DM calls too.)',
-					links: [['Install', 'https://send.cumcord.com/#https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-indicators/dist/']],
+					links: [['Install', 'https://send.cumcord.com/#https://raw.githubusercontent.com/TheArmagan/cumcord-plugins/main/voice-indicators/dist/']],
           preview: 'https://media.discordapp.net/attachments/956946033299038258/1021116468487782562/unknown.png',
           previewSize: "contain"
 				},
