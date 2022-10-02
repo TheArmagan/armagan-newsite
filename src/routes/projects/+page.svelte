@@ -40,7 +40,7 @@
 			description: 'An easy to use lyrics visualizer..',
 			links: [['Visit!', 'https://lyrica.armagan.rest/']],
 			preview:
-				'https://media.discordapp.net/attachments/956946033299038258/993764794119241808/unknown.png'
+				'https://media.discordapp.net/attachments/956946033299038258/1026126969793937518/unknown.png'
 		}
 	];
 </script>
