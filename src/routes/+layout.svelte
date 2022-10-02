@@ -41,7 +41,6 @@
   let sectionItems = [
     { icon: "ri-home-2-line", href: "/", title: "Home" },
     { icon: "ri-list-unordered", href: "/projects", title: "Projects"},
-    { icon: "ri-bar-chart-line", href: "/plugins", title: "Plugins"},
     { icon: "ri-share-forward-line", href: "/links", title: "Links"},
   ].map((d,i)=>({id: i, active: false, ...d}));
   page.subscribe((p)=>{
