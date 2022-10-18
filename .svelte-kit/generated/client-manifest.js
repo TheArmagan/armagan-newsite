@@ -11,8 +11,8 @@ export { matchers } from './client-matchers.js';
 
 			export const dictionary = {
 	"": [2],
-	"links": [3],
-	"plugins": [4],
+	"--plugins": [3],
+	"links": [4],
 	"projects": [5]
 };
 

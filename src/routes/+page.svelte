@@ -29,6 +29,12 @@
   <h2 class="pad-bottom-16">Gaming</h2>
 
   <p class="pad-bottom-32">I generally don't like playing games. But there is a exeption for Minecraft and BeatSaber.</p>
+
+  <h2 class="pad-bottom-16">Counter</h2>
+
+  <div class="counter">
+    <img alt="Ani-counter" src="https://counter.armagan.rest/render/rule34/website?pad=8">
+  </div>
 </div>
 
 <svelte:head>
@@ -101,6 +107,11 @@
 
     .pad-bottom-16 {
       padding-bottom: 16px;
+    }
+
+    .counter {
+      width: 100%;
+      height: 50px;
     }
 
 	}
