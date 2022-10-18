@@ -33,7 +33,7 @@
   <h2 class="pad-bottom-16">Counter</h2>
 
   <div class="counter">
-    <img alt="Ani-counter" src="https://counter.armagan.rest/render/rule34/website?pad=8">
+    <img alt="Ani-counter" src="https://counter.armagan.rest/render/rule34/armagan:web?pad=8">
   </div>
 </div>
 
