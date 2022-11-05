@@ -1,11 +1,11 @@
 <script>
 	let projects = [
 		{
-			title: 'Matchify',
-			description: 'Matchify is a Discord music database for everyone!',
-			links: [['Visit!', 'https://matchify.org/']],
+			title: 'Acord',
+			description: 'Fix Discord’s sloppy jobs and breathe new life to the client.',
+			links: [['Source', 'https://github.com/AcordPlugin/'], ['Visit!', 'https://acord.app/']],
 			preview:
-				'https://media.discordapp.net/attachments/956946033299038258/993443615101694032/unknown.png'
+				'https://media.discordapp.net/attachments/956946033299038258/1038447912331526244/image.png'
 		},
     {
 			title: 'JPATH',
