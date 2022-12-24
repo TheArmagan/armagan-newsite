@@ -4,7 +4,7 @@
       title: "Discord",
       url: "https://discord.com/users/707309693449535599",
       icon: "ri-discord-line",
-      description: "My personal Discord user (Armagan#4869)"
+      description: "My personal Discord user (Armagan#2448)"
     },
     {
       title: "Instagram",

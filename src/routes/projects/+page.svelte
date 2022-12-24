@@ -31,17 +31,17 @@
 		{
 			title: 'EasyDL',
 			description: 'Basically download anything..',
-			links: [['Visit!', 'https://armagan-easydl.herokuapp.com/']],
+			links: [['Visit!', 'https://easydl.armagan.rest/']],
 			preview:
 				'https://media.discordapp.net/attachments/956946033299038258/993764794119241808/unknown.png'
 		},
-		{
-			title: 'Lyrica',
-			description: 'An easy to use lyrics visualizer..',
-			links: [['Visit!', 'https://lyrica.armagan.rest/']],
-			preview:
-				'https://media.discordapp.net/attachments/956946033299038258/1026126969793937518/unknown.png'
-		}
+		// {
+		// 	title: 'Lyrica',
+		// 	description: 'An easy to use lyrics visualizer..',
+		// 	links: [['Visit!', 'https://lyrica.armagan.rest/']],
+		// 	preview:
+		// 		'https://media.discordapp.net/attachments/956946033299038258/1026126969793937518/unknown.png'
+		// }
 	];
 </script>
 
